@@ -1,9 +1,294 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="Wt3kxzSfhSOkOqK8eLt5">
-    <mxGraphModel>
+    <mxGraphModel dx="956" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6-oKIPQmINuv19Zhggfu-2" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="2258" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-3" value="前端系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="2258" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-4" value="后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="503" y="20" width="150" height="2258" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-5" value="加密服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="727" y="20" width="150" height="2258" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-6" value="密钥管理服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="941" y="20" width="150" height="2258" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-7" value="分布式存储" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="20" width="150" height="2258" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-8" value="策略数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1341" y="20" width="150" height="2258" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-9" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="1013" width="943" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-10" value="[属性满足策略]" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="6-oKIPQmINuv19Zhggfu-9">
+          <mxGeometry x="30" width="913" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-11" value="[属性不匹配]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;" vertex="1" parent="6-oKIPQmINuv19Zhggfu-9">
+          <mxGeometry y="268" width="943" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-12" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="1819" width="729" height="364" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-13" value="[密钥有效]" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="6-oKIPQmINuv19Zhggfu-12">
+          <mxGeometry x="30" width="699" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-14" value="[密钥已撤销]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;" vertex="1" parent="6-oKIPQmINuv19Zhggfu-12">
+          <mxGeometry y="214" width="729" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-15" value="1. 上传文件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-2" target="6-oKIPQmINuv19Zhggfu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-16" value="POST /upload (文件元数据)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-3" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-17" value="2. 生成访问策略" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="699" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-18" value="策略树(隐藏属性结构)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-5" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-19" value="3. 请求主密钥(MSK)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="806" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-20" value="MSK分段" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-6" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="809" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-21" value="4. 执行EREHCP-ABE加密" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;endArrow=block;fontFamily=Times New Roman;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-5">
+          <mxGeometry x="0.0057" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="699" y="453" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-22" value="5. 存储密文文件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-5" target="6-oKIPQmINuv19Zhggfu-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1018" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-23" value="6. 存储策略指纹(ECCF)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-5" target="6-oKIPQmINuv19Zhggfu-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1118" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-24" value="返回文件FID" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-25" value="上传成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-3" target="6-oKIPQmINuv19Zhggfu-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="669" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-26" value="7. 请求共享文件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-2" target="6-oKIPQmINuv19Zhggfu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-27" value="POST /share (文件ID+属性集)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-3" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="777" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-28" value="8. 查询策略指纹(ECCF)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1006" y="831" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-29" value="ECCF链表数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-8" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1009" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-30" value="9. 盲匹配验证属性" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="699" y="939" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-31" value="匹配结果(行号列表)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-5" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702" y="993" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-32" value="10. 生成用户私钥(SK)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="806" y="1094" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-33" value="SK(绑定属性+时间戳)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-6" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="809" y="1148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-34" value="返回共享令牌" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="1202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-35" value="共享成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-3" target="6-oKIPQmINuv19Zhggfu-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="1256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-36" value="错误：权限不足" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="1357" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-37" value="拒绝访问" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-3" target="6-oKIPQmINuv19Zhggfu-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="1411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-38" value="11. 请求下载文件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-2" target="6-oKIPQmINuv19Zhggfu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="1475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-39" value="GET /download (文件ID+令牌)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-3" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="1529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-40" value="12. 获取密文文件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="906" y="1583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-41" value="加密文件流" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-7" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="909" y="1637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-42" value="13. CP-ABE解密" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="699" y="1691" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-43" value="14. 验证密钥有效性" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-5" target="6-oKIPQmINuv19Zhggfu-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="918" y="1745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-44" value="密钥状态(有效/撤销)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-6" target="6-oKIPQmINuv19Zhggfu-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="921" y="1799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-45" value="解密后的文件流" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-5" target="6-oKIPQmINuv19Zhggfu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702" y="1900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-46" value="明文文件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="1954" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-47" value="下载完成" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-3" target="6-oKIPQmINuv19Zhggfu-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="2008" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-48" value="错误：密钥失效" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-4" target="6-oKIPQmINuv19Zhggfu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="2109" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-oKIPQmINuv19Zhggfu-49" value="拒绝解密" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="6-oKIPQmINuv19Zhggfu-3" target="6-oKIPQmINuv19Zhggfu-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="2163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
